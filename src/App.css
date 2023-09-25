@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(90deg, #6DC1FF, #8A8DFF);
+    font-family: 'Arial', sans-serif;
+}
+
+.answer-btn {
+    display: block;
+    width: calc(45% - 10px); 
+    height: calc(20% - 10px); 
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2c2f33;
+    color: white;
+    font-size: 60px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+    opacity: 0.7;
+
+    min-width: 25%; /* or whatever width you find suitable */
+    min-height: 300px;
+    text-align: center;
+}
+
+.answer-btn:hover {
+    transform: scale(1.07) rotate(0deg);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+.answer-btn:active {
+    transform: scale(0.95);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.question-section {
+    margin-bottom: 20px;
+}
+
+.answers-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 600px;
+}
+
+/* Multiple choice button colors */
+.answers-section > .answer-btn:nth-child(1) {
+    background-color: rgba(255, 0, 0, 0.9);
+}
+.answers-section > .answer-btn:nth-child(2) {
+    background-color: rgba(0, 0, 255, 0.9);
+}
+.answers-section > .answer-btn:nth-child(3) {
+    background-color: rgba(255, 255, 0, 0.9);
+}
+.answers-section > .answer-btn:nth-child(4) {
+    background-color: rgba(0, 255, 0, 0.9);
+}
+
+/* Adjust the height of answer buttons for multiple choice */
+.answers-section > .answer-btn:nth-child(n+3) {
+    height: calc(50% - 10px); 
+}
+
+/* True/False button colors */
+.answers-section > .answer-btn:nth-child(1) {
+    background-color: rgba(0, 0, 255, 0.9);
+}
+.answers-section > .answer-btn:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.9);
+}
