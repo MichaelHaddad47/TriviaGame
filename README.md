@@ -32,7 +32,7 @@ Thanks to React's state management and the modularity of TypeScript, the game ru
 <a name="demo"></a>
 ### Game Demonstration
 
-![][gameDemo]
+![][trivTest]
 
 <a name="cont"></a>
 ## Contributors
@@ -42,4 +42,4 @@ Thanks to React's state management and the modularity of TypeScript, the game ru
 ## License
 ...
 
-[gameDemo]: ./gameDemo.gif
+[trivTest]: ./trivTest.gif
