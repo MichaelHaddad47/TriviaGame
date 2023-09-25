@@ -40,6 +40,6 @@ Thanks to React's state management and the modularity of TypeScript, the game ru
 
 <a name="lics"></a>
 ## License
-...
+This project is licensed under the GPL-3.0 License. [License Details](../master/LICENSE.md)
 
 [trivTest]: ./trivTest.gif
