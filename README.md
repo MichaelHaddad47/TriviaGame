@@ -21,7 +21,7 @@ For a detailed walkthrough, refer to [this video](LINK_TO_YOUR_VIDEO).
 
 ## Contributors
 
-- Your Name (or GitHub username)
+- Michael Haddad : mhadd033@uottawa.ca
 
 ## License
 
