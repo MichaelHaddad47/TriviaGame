@@ -16,6 +16,8 @@ In terms of design, special emphasis was placed on the user interface to make it
 
 Thanks to React's state management and the modularity of TypeScript, the game runs smoothly, ensuring users get instantaneous feedback on their answers, making the game more interactive and fun.
 
+⭐ More updates are soon to come! ⭐
+
 <a name="inst"></a>
 ## Usage Guide
 <a name="inst1"></a>
